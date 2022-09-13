@@ -1,0 +1,13 @@
+Subject: New post
+
+Hello{% if USERNAME %} {{ USERNAME }}{% endif %},
+
+there is a new post in the topic "{{ TOPIC_TITLE }}" that you are subscribed to.
+
+Use this link to view the post:
+{{ U_VIEWTOPIC }}
+
+Use this link to view and manage your active subscriptions:
+{{ U_SUBSCRIPTIONS }}
+
+{EMAIL_SIG}
