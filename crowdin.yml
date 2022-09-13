@@ -1,0 +1,3 @@
+files:
+  - source: /ext/*
+    translation: /ext/*.*/%locale_with_underscore%
